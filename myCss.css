@@ -1,0 +1,42 @@
+/* defaults */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* background-color: black; */
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+::selection {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+::-moz-selection {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+}
+/* */
+.container {
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.shuffle {
+    width: 50%;
+    height: 100%;
+}

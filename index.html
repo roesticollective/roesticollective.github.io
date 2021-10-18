@@ -1,0 +1,158 @@
+<!-- <!DOCTYPE html>
+
+    <body>
+        <script type="text/javascript">
+            function changeImage(a) {
+                document.getElementById("img").src=a.src;
+            }
+        </script>
+        <h1>hello</h1>
+        <div class="container">
+<div class="image">
+    <img src="../001-100/img/_.png" alt="image">
+</div>
+<div class="image">
+    <img src="../001-100/img/_.png" alt="image">
+</div>
+
+<div id="main_img">
+    <img id="img" src="../001-100/img/_.png">
+</div>
+<div id="thumb_img">
+    <img src='../001-100/img/_.png'  onclick='changeImage("../001-100/img/_2.png");'>
+    <img src='../001-100/img/_2.png'  onclick='changeImage("../001-100/img/_3.png");'>
+    <img src='../001-100/img/_3.png'  onclick='changeImage("../001-100/img/_.png");'>
+</div>
+
+
+
+</div>
+
+
+        <script src="js/custom.js"></script>
+    </body>
+</html> -->
+
+
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/> 
+        <meta name="author" content="Name">
+
+        <link rel="shortcut icon" type="image/png" href="">
+        <link rel="stylesheet" href="css/myCss.css">
+        <link rel="stylesheet" href="css/reset.css">
+
+        <script src="js/jquery-3.5.1.min.js"></script>
+        
+        <title>starter_template</title>
+    </head>
+<body>
+<div class="container">
+    <div class="shuffle">
+    <div>
+		<img src="../roesticollective.github.io/img/_.png" id="getImage">
+    </div>
+    <div>
+    	<input type="button" onclick="imagefun()" value="Shuffle">
+    </div>
+    </div>
+
+    <div class="shuffle2">
+	<div>
+		<img src="../roesticollective.github.io/img/_3.png" id="getImage2">
+    	
+    </div>
+    <div>
+    	<input type="button" onclick="imagefun2()" value="Shuffle">
+    </div>
+    </div>
+</div>
+    <script>
+        function imagefun() {
+            var Image_Id = document.getElementById('getImage');
+            if (Image_Id.src.match("../roesticollective.github.io/img/_100.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_98.png";
+            }
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_98.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_96.png";
+            }   
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_96.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_94.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_94.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_92.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_92.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_90.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_90.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_88.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_88.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_86.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_86.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_84.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_84.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_82.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_82.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_80.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_80.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_78.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_78.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_100.png";
+            } 
+            }        
+    </script>
+    <script>
+        function imagefun2() {
+            var Image_Id = document.getElementById('getImage2');
+            if (Image_Id.src.match("../roesticollective.github.io/img/_99.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_97.png";
+            }
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_97.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_95.png";
+            }   
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_95.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_93.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_93.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_91.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_91.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_89.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_89.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_87.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_87.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_85.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_85.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_83.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_83.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_81.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_81.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_79.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_79.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_3.png";
+            } 
+            else if (Image_Id.src.match("../roesticollective.github.io/img/_3.png")) {
+                Image_Id.src = "../roesticollective.github.io/img/_99.png";
+            } 
+            }        
+    </script>
+
+</body>
+</html>
